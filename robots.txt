@@ -1,0 +1,8 @@
+# robots.txt for Raphel Printers
+# TODO: Replace https://raphelprinters.com/ with your actual domain
+
+User-agent: *
+Allow: /
+Disallow:
+
+Sitemap: https://raphelprinters.com/sitemap.xml

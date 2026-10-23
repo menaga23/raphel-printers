@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Feedback &amp; Review | Raphel Printers, Tirunelveli</title>
+  <meta name="description" content="Share your printing experience with Raphel Printers, Tirunelveli. Rate our wedding invitations, visiting cards, brochures, and print services." />
+  <meta name="robots" content="noindex, follow" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23E4007C'/><text y='72' x='18' font-size='72' font-family='serif' fill='white' font-weight='bold'>R</text></svg>" />
+
+  <!-- High-contrast Form Styles -->
+  <style>
+    .feedback-form label,
+    .feedback-form .form-group label,
+    .feedback-form .star-rating-label {
+      color: #15120F !important;
+      font-weight: 700 !important;
+      font-size: 0.95rem !important;
+      margin-bottom: 0.35rem;
+    }
+    .feedback-form input[type="text"],
+    .feedback-form textarea {
+      color: #15120F !important;
+      background-color: #FFFFFF !important;
+      border: 1.5px solid rgba(21, 18, 15, 0.32) !important;
+      font-size: 1rem !important;
+      font-weight: 500 !important;
+    }
+    .feedback-form input[type="text"]::placeholder,
+    .feedback-form textarea::placeholder {
+      color: #655f58 !important;
+      opacity: 1 !important;
+    }
+    .feedback-form input[type="text"]:focus,
+    .feedback-form textarea:focus {
+      border-color: #E4007C !important;
+      box-shadow: 0 0 0 3px rgba(228, 0, 124, 0.2) !important;
+      background-color: #FFFFFF !important;
+      color: #15120F !important;
+    }
+    .char-counter {
+      color: #4a453f !important;
+      font-weight: 600 !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Press Roller Progress Bar -->
+  <div id="press-roller-bar" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header id="site-header" role="banner">
+    <div class="container header-inner">
+      <!-- Unique Ink-Badge Logo -->
+      <a href="index.html" class="logo-link logo-link--badge" aria-label="Raphel Printers home">
+        <svg viewBox="0 0 220 68" width="180" height="56" xmlns="http://www.w3.org/2000/svg" aria-label="Raphel Printers logo" role="img" style="display:block;flex-shrink:0;">
+          <defs>
+            <linearGradient id="inkG_fb" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%"   stop-color="#241F1A"/>
+              <stop offset="100%" stop-color="#15120F"/>
+            </linearGradient>
+            <pattern id="htDots_fb" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+              <circle cx="3" cy="3" r="0.8" fill="rgba(255,255,255,0.06)"/>
+            </pattern>
+          </defs>
+          <rect x="1" y="1" width="66" height="66" rx="10" fill="url(#inkG_fb)"/>
+          <rect x="1" y="1" width="66" height="66" rx="10" fill="url(#htDots_fb)"/>
+          <rect x="1" y="1" width="5" height="66" rx="3" fill="#E4007C"/>
+          <g transform="translate(54,12)">
+            <circle cx="0" cy="0" r="7" fill="none" stroke="#FFD60A" stroke-width="1.2" opacity="0.85"/>
+            <line x1="-10" y1="0" x2="10" y2="0" stroke="#FFD60A" stroke-width="0.9" opacity="0.85"/>
+            <line x1="0" y1="-10" x2="0" y2="10" stroke="#FFD60A" stroke-width="0.9" opacity="0.85"/>
+          </g>
+          <text x="31" y="44" font-family="'Georgia','Times New Roman',serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">R</text>
+          <rect x="18" y="52" width="32" height="3" rx="1.5" fill="#E4007C"/>
+          <circle cx="53" cy="53.5" r="2.5" fill="#009FE3"/>
+          <text x="82" y="24" font-family="'Arial Black','Helvetica Neue',sans-serif" font-size="21" font-weight="900" fill="#15120F" text-anchor="start" dominant-baseline="middle" letter-spacing="1.5">RAPHEL</text>
+          <rect x="82" y="36" width="128" height="2.5" rx="1.25" fill="#E4007C"/>
+          <text x="82" y="50" font-family="'Arial','Helvetica',sans-serif" font-size="10.5" font-weight="700" fill="#444" text-anchor="start" dominant-baseline="middle" letter-spacing="5">PRINTERS</text>
+          <rect x="82" y="58" width="54" height="9" rx="4.5" fill="#FFD60A"/>
+          <text x="109" y="62.5" font-family="'Arial','Helvetica',sans-serif" font-size="6" font-weight="800" fill="#15120F" text-anchor="middle" dominant-baseline="middle" letter-spacing="1.2">EST. 1996</text>
+        </svg>
+      </a>
+
+      <!-- Header Controls -->
+      <div class="header-controls">
+        <a href="index.html" class="btn btn-outline-ink btn-sm" id="btn-back-home">
+          <span data-i18n="fb_back_home">← Return to Home</span>
+        </a>
+
+        <!-- Language Toggle -->
+        <button id="lang-toggle" class="lang-btn" aria-label="Switch language" title="Switch to Tamil / Switch to English">
+          <span id="lang-label">தமிழ்</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="feedback-page-main">
+    <div class="container">
+      <div class="feedback-card-container">
+        
+        <!-- Form View -->
+        <div id="feedback-form-view">
+          <div class="feedback-header">
+            <span class="section-eyebrow" data-i18n="feedback_eyebrow">Customer Feedback</span>
+            <h1 data-i18n="feedback_heading">Rate Your Experience</h1>
+            <p data-i18n="feedback_subtitle">Your honest feedback helps us maintain our 29-year tradition of printing excellence in Tirunelveli.</p>
+          </div>
+
+          <form id="feedback-form" class="feedback-form" novalidate aria-label="Customer review form">
+            
+            <!-- Honeypot anti-spam field -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="hp-field-website">Leave blank</label>
+              <input type="text" id="hp-field-website" name="hp_website" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <!-- Interactive 5-Star Rating -->
+            <div class="star-rating-group" role="group" aria-labelledby="star-rating-label">
+              <label id="star-rating-label" class="star-rating-label" data-i18n="fb_rating_label">Your Rating *</label>
+              <div class="star-rating-stars" id="star-rating-container" role="radiogroup" aria-required="true">
+                <button type="button" class="star-btn" data-rating="1" aria-label="1 star - Poor" role="radio" aria-checked="false">★</button>
+                <button type="button" class="star-btn" data-rating="2" aria-label="2 stars - Fair" role="radio" aria-checked="false">★</button>
+                <button type="button" class="star-btn" data-rating="3" aria-label="3 stars - Good" role="radio" aria-checked="false">★</button>
+                <button type="button" class="star-btn" data-rating="4" aria-label="4 stars - Very Good" role="radio" aria-checked="false">★</button>
+                <button type="button" class="star-btn" data-rating="5" aria-label="5 stars - Excellent" role="radio" aria-checked="false">★</button>
+              </div>
+              <div id="star-rating-text" class="star-rating-text" data-i18n="fb_rating_prompt">Select your star rating</div>
+              <input type="hidden" name="rating" id="rating-value" value="" required />
+            </div>
+
+            <!-- Name -->
+            <div class="form-group">
+              <label for="fb-name" data-i18n="fb_name_label">Your Name *</label>
+              <input type="text" id="fb-name" name="name" required maxlength="60"
+                     placeholder="e.g. S. Vijay Kumar" autocomplete="name" aria-required="true" />
+            </div>
+
+            <!-- Area / Locality -->
+            <div class="form-group">
+              <label for="fb-area" data-i18n="fb_area_label">Area / Locality (optional)</label>
+              <input type="text" id="fb-area" name="area" maxlength="60"
+                     placeholder="e.g. Palayamkottai, Tirunelveli" autocomplete="address-level2" />
+            </div>
+
+            <!-- Comment -->
+            <div class="form-group">
+              <label for="fb-comment" data-i18n="fb_comment_label">Your Review / Comments *</label>
+              <textarea id="fb-comment" name="comment" required maxlength="500" rows="4"
+                        placeholder="Tell us about the print quality, paper finish, delivery timeliness, or service..."
+                        aria-required="true"></textarea>
+              <div class="char-counter">
+                <span id="char-count">0</span> / 500 <span data-i18n="fb_chars_left">characters</span>
+              </div>
+            </div>
+
+            <!-- Rate limit notice if recently submitted -->
+            <div id="rate-limit-msg" class="form-note" style="display:none; color:var(--magenta); font-weight:600; text-align:center; margin-bottom:12px;"></div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-call btn-lg btn-full" id="fb-submit-btn">
+              <span id="submit-btn-text" data-i18n="fb_submit">Submit Review</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Success View (Hidden by default) -->
+        <div id="feedback-success-view" class="feedback-success-card" style="display: none;">
+          <div class="success-icon-badge" aria-hidden="true">✓</div>
+          <h2 class="success-title" data-i18n="fb_thanks_title">Thank You for Your Feedback!</h2>
+          <p class="success-desc" data-i18n="fb_thanks_desc">Your review has been submitted successfully and will appear on our website once verified by our team.</p>
+
+          <!-- Google Review Prompt (Displayed if rating is 4 or 5 stars) -->
+          <div id="google-review-cta" class="google-review-box" style="display: none;">
+            <p data-i18n="fb_google_prompt">We are thrilled you had a 5-star experience! Would you please share your review on Google as well?</p>
+            <a href="#" id="google-review-link" class="btn btn-google btn-lg" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>
+              </svg>
+              <span data-i18n="fb_google_btn">Review Us on Google ⭐</span>
+            </a>
+          </div>
+
+          <div style="margin-top: 1rem;">
+            <a href="index.html" class="btn btn-outline-ink">
+              <span data-i18n="fb_back_home">← Return to Home</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="site-footer" role="contentinfo" style="padding-block: var(--space-lg); text-align: center; border-top: 1px solid rgba(21,18,15,0.1);">
+    <div class="container">
+      <p style="color: var(--ink-soft); font-size: 0.88rem;">
+        Raphel Printers • 41, Perumal Sannathi St, Meenakshipuram, Tirunelveli, Tamil Nadu 627001 • <a href="tel:+919842177118" style="color:var(--magenta);font-weight:600;">+91 98421 77118</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Feedback JavaScript Logic (Module) -->
+  <script type="module">
+    import { firebaseConfig, isFirebaseConfigured } from './firebase-config.js';
+    import { initializeApp, getApps } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js';
+    import { getFirestore, collection, addDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js';
+
+    // App Configuration
+    const CONFIG = {
+      // Optional. Leave empty to auto-detect. Set only if using a custom domain.
+      siteUrl: '',
+      // TODO: Replace with your actual Google Business review URL
+      googleReviewUrl: 'https://search.google.com/local/writereview?placeid=TODO_GOOGLE_PLACE_ID'
+    };
+
+    // Bilingual Dictionary
+    const TRANSLATIONS = {
+      en: {
+        feedback_eyebrow: 'Customer Feedback',
+        feedback_heading: 'Rate Your Experience',
+        feedback_subtitle: 'Your honest feedback helps us maintain our 29-year tradition of printing excellence in Tirunelveli.',
+        fb_rating_label: 'Your Rating *',
+        fb_rating_prompt: 'Select your star rating',
+        fb_rating_1: '1 star - Poor',
+        fb_rating_2: '2 stars - Fair',
+        fb_rating_3: '3 stars - Good',
+        fb_rating_4: '4 stars - Very Good',
+        fb_rating_5: '5 stars - Excellent! ★★★★★',
+        fb_name_label: 'Your Name *',
+        fb_area_label: 'Area / Locality (optional)',
+        fb_comment_label: 'Your Review / Comments *',
+        fb_chars_left: 'characters',
+        fb_submit: 'Submit Review',
+        fb_submitting: 'Submitting...',
+        fb_rate_limit: 'You recently submitted feedback. Please try again after 1 hour.',
+        fb_thanks_title: 'Thank You for Your Feedback!',
+        fb_thanks_desc: 'Your review has been submitted successfully and will appear on our website once verified by our team.',
+        fb_google_prompt: 'We are thrilled you had a great experience! Would you please share your review on Google as well?',
+        fb_google_btn: 'Review Us on Google ⭐',
+        fb_back_home: '← Return to Home'
+      },
+      ta: {
+        feedback_eyebrow: 'வாடிக்கையாளர் கருத்து',
+        feedback_heading: 'உங்கள் அனுபவத்தை மதிப்பிடுங்கள்',
+        feedback_subtitle: 'உங்கள் உண்மையான கருத்து எங்கள் 29 ஆண்டுகால அச்சிடும் தரத்தை மேலும் உயர்த்த உதவும்.',
+        fb_rating_label: 'உங்கள் மதிப்பீடு *',
+        fb_rating_prompt: 'நட்சத்திரங்களை தேர்ந்தெடுக்கவும்',
+        fb_rating_1: '1 நட்சத்திரம் - மோசம்',
+        fb_rating_2: '2 நட்சத்திரங்கள் - சுமாரானது',
+        fb_rating_3: '3 நட்சத்திரங்கள் - நல்லது',
+        fb_rating_4: '4 நட்சத்திரங்கள் - மிக நல்லது',
+        fb_rating_5: '5 நட்சத்திரங்கள் - மிகச் சிறந்தது! ★★★★★',
+        fb_name_label: 'உங்கள் பெயர் *',
+        fb_area_label: 'பகுதி / ஊர் (விருப்பத்தேர்வு)',
+        fb_comment_label: 'உங்கள் கருத்து / விமர்சனம் *',
+        fb_chars_left: 'எழுத்துக்கள்',
+        fb_submit: 'கருத்தை சமர்ப்பிக்கவும்',
+        fb_submitting: 'அனுப்பப்படுகிறது...',
+        fb_rate_limit: 'நீங்கள் சமீபத்தில் கருத்து தெரிவித்துள்ளீர்கள். 1 மணி நேரம் கழித்து மீண்டும் முயற்சிக்கவும்.',
+        fb_thanks_title: 'உங்கள் கருத்துக்கு மிக்க நன்றி!',
+        fb_thanks_desc: 'உங்கள் கருத்து வெற்றிகரமாக பெறப்பட்டது. எங்கள் குழு சரிபார்த்தவுடன் இணையதளத்தில் தோன்றும்.',
+        fb_google_prompt: 'உங்களுக்கு அருமையான அனுபவம் கிடைத்ததில் மகிழ்ச்சி! கூகுளிலும் இதை 30 விநாடிகளில் பகிர்ந்துகொள்ள முடியுமா?',
+        fb_google_btn: 'Google-இல் மதிப்பாய்வு செய்க ⭐',
+        fb_back_home: '← முகப்பு பக்கத்திற்கு செல்ல'
+      }
+    };
+
+    let currentLang = 'en';
+    try {
+      currentLang = localStorage.getItem('raphel_lang') || 'en';
+    } catch (_) {}
+
+    function applyTranslations() {
+      const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.en;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.textContent = dict[key];
+      });
+      const langLabel = document.getElementById('lang-label');
+      if (langLabel) langLabel.textContent = currentLang === 'en' ? 'தமிழ்' : 'English';
+      if (currentLang === 'ta') {
+        document.body.classList.add('ta-text');
+      } else {
+        document.body.classList.remove('ta-text');
+      }
+      updateRatingText(selectedRating);
+    }
+
+    // Language toggle
+    document.getElementById('lang-toggle')?.addEventListener('click', () => {
+      currentLang = currentLang === 'en' ? 'ta' : 'en';
+      try { localStorage.setItem('raphel_lang', currentLang); } catch (_) {}
+      applyTranslations();
+    });
+
+    // ── Star Rating Logic ──────────────────────────────────────────
+    let selectedRating = 0;
+    const starBtns = document.querySelectorAll('.star-btn');
+    const ratingInput = document.getElementById('rating-value');
+    const ratingText = document.getElementById('star-rating-text');
+
+    function updateRatingText(val) {
+      if (!ratingText) return;
+      const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.en;
+      if (!val) {
+        ratingText.textContent = dict.fb_rating_prompt;
+      } else {
+        ratingText.textContent = dict[`fb_rating_${val}`] || `${val} / 5`;
+      }
+    }
+
+    function setStarRating(val) {
+      selectedRating = val;
+      if (ratingInput) ratingInput.value = val;
+      starBtns.forEach(btn => {
+        const btnVal = parseInt(btn.dataset.rating, 10);
+        const isActive = btnVal <= val;
+        btn.classList.toggle('is-active', isActive);
+        btn.setAttribute('aria-checked', btnVal === val ? 'true' : 'false');
+      });
+      updateRatingText(val);
+    }
+
+    starBtns.forEach(btn => {
+      const val = parseInt(btn.dataset.rating, 10);
+      btn.addEventListener('mouseenter', () => {
+        starBtns.forEach(b => {
+          b.classList.toggle('is-hovered', parseInt(b.dataset.rating, 10) <= val);
+        });
+      });
+
+      btn.addEventListener('click', () => {
+        setStarRating(val);
+      });
+    });
+
+    document.getElementById('star-rating-container')?.addEventListener('mouseleave', () => {
+      starBtns.forEach(b => b.classList.remove('is-hovered'));
+    });
+
+    // ── Character Counter ──────────────────────────────────────────
+    const commentField = document.getElementById('fb-comment');
+    const charCountEl = document.getElementById('char-count');
+    commentField?.addEventListener('input', () => {
+      if (charCountEl) charCountEl.textContent = commentField.value.length;
+    });
+
+    // ── Rate Limiting Check (1 submission per browser per hour) ────
+    function checkRateLimit() {
+      try {
+        const lastTime = parseInt(localStorage.getItem('raphel_last_feedback_time') || '0', 10);
+        const now = Date.now();
+        const oneHour = 60 * 60 * 1000;
+        if (now - lastTime < oneHour) {
+          const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.en;
+          const rateMsg = document.getElementById('rate-limit-msg');
+          if (rateMsg) {
+            rateMsg.textContent = dict.fb_rate_limit;
+            rateMsg.style.display = 'block';
+          }
+          return false;
+        }
+      } catch (_) {}
+      return true;
+    }
+
+    // ── Form Submission ────────────────────────────────────────────
+    const form = document.getElementById('feedback-form');
+    const submitBtn = document.getElementById('fb-submit-btn');
+    const submitBtnText = document.getElementById('submit-btn-text');
+
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // 1. Honeypot spam check
+      const honeypot = document.getElementById('hp-field-website')?.value;
+      if (honeypot) {
+        console.warn('Spam detected via honeypot.');
+        return; // Silent discard
+      }
+
+      // 2. Rating required check
+      if (!selectedRating || selectedRating < 1 || selectedRating > 5) {
+        alert(currentLang === 'ta' ? 'தயவுசெய்து ஒரு நட்சத்திர மதிப்பீட்டை தேர்ந்தெடுக்கவும்.' : 'Please select a star rating (1 to 5).');
+        document.getElementById('star-rating-container')?.focus();
+        return;
+      }
+
+      // 3. Name & comment validation
+      const name = document.getElementById('fb-name')?.value.trim();
+      const area = document.getElementById('fb-area')?.value.trim();
+      const comment = commentField?.value.trim();
+
+      if (!name) {
+        document.getElementById('fb-name')?.focus();
+        return;
+      }
+      if (!comment) {
+        commentField?.focus();
+        return;
+      }
+
+      // 4. Rate-limit check
+      if (!checkRateLimit()) {
+        alert(TRANSLATIONS[currentLang]?.fb_rate_limit || TRANSLATIONS.en.fb_rate_limit);
+        return;
+      }
+
+      // 5. Disable submit button & show loading state
+      if (submitBtn) submitBtn.disabled = true;
+      if (submitBtnText) submitBtnText.textContent = TRANSLATIONS[currentLang]?.fb_submitting || 'Submitting...';
+
+      try {
+        if (!isFirebaseConfigured()) {
+          console.info('Firebase credentials are in TODO setup mode. Feedback recorded in local simulated mode.');
+        } else {
+          const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
+          const db = getFirestore(app);
+
+          await addDoc(collection(db, 'feedback'), {
+            name: name.slice(0, 60),
+            area: area.slice(0, 60),
+            rating: parseInt(selectedRating, 10),
+            comment: comment.slice(0, 500),
+            createdAt: serverTimestamp(),
+            approved: false
+          });
+        }
+
+        // Record submission timestamp for client-side rate limit
+        try {
+          localStorage.setItem('raphel_last_feedback_time', String(Date.now()));
+        } catch (_) {}
+
+        // Show success view
+        document.getElementById('feedback-form-view').style.display = 'none';
+        const successView = document.getElementById('feedback-success-view');
+        successView.style.display = 'flex';
+
+        // High rating Google Review CTA (if 4 or 5 stars)
+        if (selectedRating >= 4) {
+          const googleBox = document.getElementById('google-review-cta');
+          const googleLink = document.getElementById('google-review-link');
+          if (googleBox && googleLink) {
+            googleLink.href = CONFIG.googleReviewUrl;
+            googleBox.style.display = 'block';
+          }
+        }
+
+      } catch (err) {
+        console.error('Error saving feedback:', err);
+        alert(currentLang === 'ta' ? 'மன்னிக்கவும், சமர்ப்பிப்பதில் பிழை ஏற்பட்டது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.' : 'Sorry, an error occurred while saving your review. Please try again.');
+        if (submitBtn) submitBtn.disabled = false;
+        if (submitBtnText) submitBtnText.textContent = TRANSLATIONS[currentLang]?.fb_submit || 'Submit Review';
+      }
+    });
+
+    // Initial translation render
+    applyTranslations();
+  </script>
+</body>
+</html>

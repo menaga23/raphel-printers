@@ -117,17 +117,21 @@ const TRANSLATIONS = {
     nav_quote:    'Get a Quote',
     nav_feedback: 'Feedback',
     // Hero
-    hero_h1_line1: '29 Years of',
+    hero_h1_line1: '30 Years of',
     hero_h1_line2: 'Printing Trust',
     hero_h1_line3: 'in Tirunelveli',
-    hero_tagline:  'Wedding invitations to visiting cards — printed with care by Raphel Printers since 1996. Tamil & English designs, bulk orders welcome.',
+    hero_tagline:  'Wedding invitations to visiting cards — printed with care by Raphel Printers since 1997. Tamil & English designs, bulk orders welcome.',
     // Badges
     badge_open:   '✦ Open Now',
     badge_closed: 'Closed · Opens 10 AM',
     // Trust
-    trust_years: '29+ Years Experience',
+    trust_years: '30+ Years Experience',
     trust_langs: 'Tamil & English',
     trust_bulk:  'Bulk Orders',
+    // Hero floating pills
+    pill_offset:   '✨ Offset & Digital Craft',
+    pill_express:  '⚡ 24H Quick Turnaround',
+    pill_cmyk:     '🎯 High-Precision CMYK',
     // Buttons
     btn_call:      'Call Now',
     btn_whatsapp:  'WhatsApp',
@@ -142,7 +146,7 @@ const TRANSLATIONS = {
     why_heading:   'Why Choose Raphel Printers?',
     why_subtitle:  'Three decades of excellence in Tirunelveli\'s printing industry.',
     why_years_label:    'Years in Business',
-    why_years_desc:     'Serving Tirunelveli since 1996. Trust earned over decades.',
+    why_years_desc:     'Serving Tirunelveli since 1997. Trust earned over decades.',
     why_orders_label:   'Orders Fulfilled',
     why_orders_desc:    'From single cards to bulk wedding orders, delivered on time.',
     why_langs_label:    'Languages',
@@ -164,10 +168,10 @@ const TRANSLATIONS = {
     // About
     about_eyebrow: 'Our Story',
     about_heading: 'A Legacy of Ink & Trust',
-    about_p1: 'Raphel Printers was born in the heart of Tirunelveli in 1996, when M. Ramakrishnan set up his first press at 41, Perumal Sannathi Street. What began as a small neighbourhood print shop has grown into one of the most trusted names in the district\'s printing industry.',
-    about_p2: 'Over 29 years, we have printed hundreds of thousands of wedding invitations, visiting cards, brochures, and more — each piece handled with the same care and attention as the first. Our clients return not just for quality but for the personal touch that only a family-run shop can offer.',
+    about_p1: 'Raphel Printers was born in the heart of Tirunelveli in 1997, when M. Ramakrishnan set up his first press at 41, Perumal Sannathi Street. What began as a small neighbourhood print shop has grown into one of the most trusted names in the district\'s printing industry.',
+    about_p2: 'Over 30 years, we have printed hundreds of thousands of wedding invitations, visiting cards, brochures, and more — each piece handled with the same care and attention as the first. Our clients return not just for quality but for the personal touch that only a family-run shop can offer.',
     about_p3: 'We specialise in bilingual printing — beautiful Tamil typography alongside crisp English layouts. Whether you need a simple visiting card or a 1,000-piece wedding invitation order, Raphel Printers delivers on time, every time.',
-    owner_title: 'Founder & Owner',
+    owner_title: 'Founder & Managing Director',
     years_badge: 'Years',
     // Testimonials
     test_eyebrow: 'Happy Customers',
@@ -179,12 +183,6 @@ const TRANSLATIONS = {
     qr_subtitle: 'Scan to rate us and share your feedback',
     qr_download_btn: 'Download QR (PNG)',
     qr_rate_btn: 'Rate Us Online',
-    qr_warning: 'Set your live website address in CONFIG.siteUrl',
-    qr_local_notice_en: 'QR will work after the website is deployed online. Deploy to Netlify, then download the QR from the live site.',
-    qr_local_notice_ta: 'இணையதளம் ஆன்லைனில் வெளியிடப்பட்ட பிறகு QR செயல்படும். Netlify-ல் பதிவேற்றிய பின், நேரடி தளத்திலிருந்து QR-ஐ பதிவிறக்கவும்.',
-    qr_link_label: 'Encodes:',
-    qr_copy_link: 'Copy link',
-    qr_copied: 'Copied!',
     // Quote form
     quote_eyebrow:        'Free Estimate',
     quote_heading:        'Request a Quote',
@@ -220,7 +218,7 @@ const TRANSLATIONS = {
     map_open:   'Open in Maps',
     ig_follow:  'Follow us on Instagram',
     // Footer
-    footer_tagline:         'Tirunelveli\'s printing press since 1996.',
+    footer_tagline:         'Tirunelveli\'s printing press since 1997.',
     footer_links_heading:   'Quick Links',
     footer_contact_heading: 'Contact',
     footer_rights:          'All rights reserved.',
@@ -250,17 +248,21 @@ const TRANSLATIONS = {
     nav_quote:    'விலைக்கணக்கு',
     nav_feedback: 'கருத்துகள்',
     // Hero
-    hero_h1_line1: '29 ஆண்டுகளாக',
+    hero_h1_line1: '30 ஆண்டுகளாக',
     hero_h1_line2: 'நம்பகமான அச்சகம்',
     hero_h1_line3: 'திருநெல்வேலியில்',
-    hero_tagline:  'திருமண அழைப்பிதழிலிருந்து விசிட்டிங் கார்டு வரை — 1996 முதல் ரஃபேல் பிரிண்டர்ஸ் தரமாக அச்சிடுகிறோம். தமிழ் & ஆங்கில வடிவங்கள், மொத்த ஆர்டர்கள் வரவேற்கப்படுகின்றன.',
+    hero_tagline:  'திருமண அழைப்பிதழிலிருந்து விசிட்டிங் கார்டு வரை — 1997 முதல் ரஃபேல் பிரிண்டர்ஸ் தரமாக அச்சிடுகிறோம். தமிழ் & ஆங்கில வடிவங்கள், மொத்த ஆர்டர்கள் வரவேற்கப்படுகின்றன.',
     // Badges
     badge_open:   '✦ இப்போது திறந்திருக்கிறோம்',
     badge_closed: 'மூடப்பட்டது · காலை 10 மணிக்கு திறக்கும்',
     // Trust
-    trust_years: '29+ ஆண்டுகள் அனுபவம்',
+    trust_years: '30+ ஆண்டுகள் அனுபவம்',
     trust_langs: 'தமிழ் & ஆங்கிலம்',
     trust_bulk:  'மொத்த ஆர்டர்கள்',
+    // Hero floating pills
+    pill_offset:   '✨ ஆஃப்செட் & டிஜிட்டல் தரம்',
+    pill_express:  '⚡ 24 மணி நேர துரித சேவை',
+    pill_cmyk:     '🎯 துல்லியமான CMYK அச்சு',
     // Buttons
     btn_call:      'இப்போதே அழைக்கவும்',
     btn_whatsapp:  'வாட்ஸ்அப்',
@@ -275,7 +277,7 @@ const TRANSLATIONS = {
     why_heading:   'ரஃபேல் பிரிண்டர்ஸை ஏன் தேர்வு செய்வது?',
     why_subtitle:  'திருநெல்வேலியின் அச்சுத்துறையில் மூன்று தசாப்த சிறப்பு.',
     why_years_label:    'ஆண்டுகள் அனுபவம்',
-    why_years_desc:     '1996 முதல் திருநெல்வேலிக்கு சேவை செய்கிறோம்.',
+    why_years_desc:     '1997 முதல் திருநெல்வேலிக்கு சேவை செய்கிறோம்.',
     why_orders_label:   'ஆர்டர்கள் நிறைவேற்றப்பட்டவை',
     why_orders_desc:    'ஒற்றை கார்டிலிருந்து மொத்த திருமண ஆர்டர்கள் வரை.',
     why_langs_label:    'மொழிகள்',
@@ -297,10 +299,10 @@ const TRANSLATIONS = {
     // About
     about_eyebrow: 'எங்கள் கதை',
     about_heading: 'மை மற்றும் நம்பிக்கையின் மரபு',
-    about_p1: 'ரஃபேல் பிரிண்டர்ஸ் 1996 ஆம் ஆண்டு திருநெல்வேலியின் இதயத்தில் பிறந்தது, M. ராமகிருஷ்ணன் 41, பெருமாள் சன்னதி தெருவில் தனது முதல் அச்சகத்தை நிறுவியபோது. ஒரு சிறிய அக்கம்பக்க அச்சக கடையாக தொடங்கியது இப்போது மாவட்டத்தின் மிகவும் நம்பகமான அச்சு வணிகமாக வளர்ந்துள்ளது.',
-    about_p2: '29 ஆண்டுகளாக, நாங்கள் லட்சக்கணக்கான திருமண அழைப்பிதழ்கள், விசிட்டிங் கார்டுகள், சிறுநூல்கள் மற்றும் பலவற்றை அச்சிட்டோம் — ஒவ்வொரு துண்டும் முதல் நாள் போலவே கவனத்துடன் கையாளப்படுகிறது.',
+    about_p1: 'ரஃபேல் பிரிண்டர்ஸ் 1997 ஆம் ஆண்டு திருநெல்வேலியின் இதயத்தில் பிறந்தது, M. ராமகிருஷ்ணன் 41, பெருமாள் சன்னதி தெருவில் தனது முதல் அச்சகத்தை நிறுவியபோது. ஒரு சிறிய அக்கம்பக்க அச்சக கடையாக தொடங்கியது இப்போது மாவட்டத்தின் மிகவும் நம்பகமான அச்சு வணிகமாக வளர்ந்துள்ளது.',
+    about_p2: '30 ஆண்டுகளாக, நாங்கள் லட்சக்கணக்கான திருமண அழைப்பிதழ்கள், விசிட்டிங் கார்டுகள், சிறுநூல்கள் மற்றும் பலவற்றை அச்சிட்டோம் — ஒவ்வொரு துண்டும் முதல் நாள் போலவே கவனத்துடன் கையாளப்படுகிறது.',
     about_p3: 'நாங்கள் இரு மொழி அச்சிடலில் நிபுணர்கள் — அழகான தமிழ் எழுத்துக்கலை மற்றும் நேர்த்தியான ஆங்கில தளவமைப்பு. ஒரு எளிய விசிட்டிங் கார்டு அல்லது 1,000 திருமண அழைப்பிதழ் ஆர்டர் — ரஃபேல் பிரிண்டர்ஸ் எப்போதும் சரியான நேரத்தில் வழங்குகிறது.',
-    owner_title: 'நிறுவனர் & உரிமையாளர்',
+    owner_title: 'நிறுவனர் & நிர்வாக இயக்குநர் (MD)',
     years_badge: 'ஆண்டுகள்',
     // Testimonials
     test_eyebrow: 'மகிழ்ச்சியான வாடிக்கையாளர்கள்',
@@ -312,12 +314,6 @@ const TRANSLATIONS = {
     qr_subtitle: 'மதிப்பாய்வு செய்ய மற்றும் உங்கள் கருத்தைப் பகிர ஸ்கேன் செய்யுங்கள்',
     qr_download_btn: 'QR அட்டை பதிவிறக்குக (PNG)',
     qr_rate_btn: 'இணையத்தில் மதிப்பிட',
-    qr_warning: 'CONFIG.siteUrl-ல் நேரடி இணையதள முகவரியை அமைக்கவும் (Set your live website address in CONFIG.siteUrl)',
-    qr_local_notice_en: 'QR will work after the website is deployed online. Deploy to Netlify, then download the QR from the live site.',
-    qr_local_notice_ta: 'இணையதளம் ஆன்லைனில் வெளியிடப்பட்ட பிறகு QR செயல்படும். Netlify-ல் பதிவேற்றிய பின், நேரடி தளத்திலிருந்து QR-ஐ பதிவிறக்கவும்.',
-    qr_link_label: 'இணைப்பு:',
-    qr_copy_link: 'இணைப்பை நகலெடு',
-    qr_copied: 'நகலெடுக்கப்பட்டது!',
     // Quote form
     quote_eyebrow:        'இலவச மதிப்பீடு',
     quote_heading:        'விலைக்கணக்கு கோரவும்',
@@ -353,7 +349,7 @@ const TRANSLATIONS = {
     map_open:   'வரைபடத்தில் திற',
     ig_follow:  'இன்ஸ்டாகிராமில் பின்தொடருங்கள்',
     // Footer
-    footer_tagline:         '1996 முதல் திருநெல்வேலியின் அச்சகம்.',
+    footer_tagline:         '1997 முதல் திருநெல்வேலியின் அச்சகம்.',
     footer_links_heading:   'விரைவு இணைப்புகள்',
     footer_contact_heading: 'தொடர்பு',
     footer_rights:          'அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.',
@@ -403,11 +399,11 @@ function $$(selector, context = document) {
    LANGUAGE SYSTEM
 ───────────────────────────────────────────────────────────────── */
 function setLanguage(lang) {
-  currentLang = lang;
-  document.documentElement.lang = lang;
+  currentLang = 'en';
+  document.documentElement.lang = 'en';
 
-  // Store preference
-  try { localStorage.setItem('raphel_lang', lang); } catch (_) {}
+  // Ensure preference is strictly English
+  try { localStorage.removeItem('raphel_lang'); } catch (_) {}
 
   // Update all i18n elements
   $$('[data-i18n]').forEach(el => {
@@ -416,18 +412,10 @@ function setLanguage(lang) {
     if (text) el.textContent = text;
   });
 
-  // Update Tamil font class on body
-  if (lang === 'ta') {
-    document.body.classList.add('ta-text');
-  } else {
-    document.body.classList.remove('ta-text');
-  }
+  // Ensure Tamil font class is removed
+  document.body.classList.remove('ta-text');
 
-  // Update language toggle label
-  const label = $('#lang-label');
-  if (label) label.textContent = lang === 'en' ? 'தமிழ்' : 'English';
-
-  // Re-render dynamic content with new language
+  // Re-render dynamic content in English
   renderServices();
   renderGallery();
   renderTestimonials();
@@ -830,96 +818,16 @@ function verifyQRWithJsQR(canvas, expectedUrl) {
 
 function initFeedbackQR() {
   const qrContainer = $('#testimonials-qr-box');
-  const localNotice = $('#qr-local-notice');
-  const linkBox = $('#qr-link-box');
-  const encodedUrlEl = $('#qr-encoded-url');
-  const copyBtn = $('#btn-copy-qr-link');
   const downloadBtn = $('#btn-download-qr');
   if (!qrContainer) return;
 
   const feedbackUrl = getFeedbackUrl();
 
-  // 5. Apply the same getFeedbackUrl() logic to "Rate Us Online" and feedback buttons
+  // Apply the same getFeedbackUrl() logic to "Rate Us Online" and feedback buttons
   const feedbackTarget = feedbackUrl || 'feedback.html';
   $$('a[href*="feedback.html"]').forEach(link => {
     link.href = feedbackTarget;
   });
-
-  // 3. QR behaviour:
-  // If getFeedbackUrl() returns null (local preview), do NOT generate a scannable QR.
-  // Show clear notice in place of QR: "QR will work after the website is deployed online.
-  // Deploy to Netlify, then download the QR from the live site." in English and Tamil,
-  // and disable the Download QR button.
-  if (!feedbackUrl) {
-    qrContainer.innerHTML = '';
-    if (localNotice) localNotice.hidden = false;
-    if (linkBox) linkBox.hidden = true;
-    if (downloadBtn) {
-      downloadBtn.disabled = true;
-      downloadBtn.setAttribute('aria-disabled', 'true');
-      downloadBtn.classList.add('btn-disabled');
-      downloadBtn.onclick = (e) => {
-        e.preventDefault();
-      };
-    }
-    console.info('[QR Code] Running in local preview mode. QR generation paused until deployed online.');
-    return;
-  }
-
-  // When live: hide local notice and enable download button
-  if (localNotice) localNotice.hidden = true;
-  if (downloadBtn) {
-    downloadBtn.disabled = false;
-    downloadBtn.removeAttribute('aria-disabled');
-    downloadBtn.classList.remove('btn-disabled');
-  }
-
-  // Under the QR, show the exact link it encodes as small text, and add a "Copy link" button
-  if (linkBox && encodedUrlEl) {
-    linkBox.hidden = false;
-    encodedUrlEl.textContent = feedbackUrl;
-    encodedUrlEl.title = feedbackUrl;
-  }
-  if (copyBtn) {
-    copyBtn.onclick = () => {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(feedbackUrl).then(() => {
-          showCopiedFeedback(copyBtn);
-        }).catch(() => {
-          fallbackCopyText(feedbackUrl, copyBtn);
-        });
-      } else {
-        fallbackCopyText(feedbackUrl, copyBtn);
-      }
-    };
-  }
-
-  function showCopiedFeedback(btn) {
-    const textSpan = $('#copy-qr-link-text');
-    const originalText = textSpan ? textSpan.textContent : 'Copy link';
-    if (textSpan) textSpan.textContent = t('qr_copied') || 'Copied!';
-    btn.classList.add('copied');
-    setTimeout(() => {
-      if (textSpan) textSpan.textContent = originalText;
-      btn.classList.remove('copied');
-    }, 2000);
-  }
-
-  function fallbackCopyText(text, btn) {
-    const ta = document.createElement('textarea');
-    ta.value = text;
-    ta.style.position = 'fixed';
-    ta.style.opacity = '0';
-    document.body.appendChild(ta);
-    ta.select();
-    try {
-      document.execCommand('copy');
-      showCopiedFeedback(btn);
-    } catch (_) {
-      prompt('Copy this feedback link:', text);
-    }
-    document.body.removeChild(ta);
-  }
 
   // Generate QR code using error correction level M
   if (typeof QRCode === 'undefined') {
@@ -927,9 +835,12 @@ function initFeedbackQR() {
     return;
   }
 
+  // Use resolved feedbackUrl (or relative 'feedback.html' fallback)
+  const targetUrl = feedbackUrl || `${window.location.origin}/feedback.html`;
+
   const tempDiv = document.createElement('div');
   const qrObj = new QRCode(tempDiv, {
-    text: feedbackUrl,
+    text: targetUrl,
     width: 256,
     height: 256,
     colorDark: '#000000',
@@ -960,7 +871,7 @@ function initFeedbackQR() {
   canvas.width = canvasSize;
   canvas.height = canvasSize;
   canvas.setAttribute('role', 'img');
-  canvas.setAttribute('aria-label', `Feedback QR Code pointing to ${feedbackUrl}`);
+  canvas.setAttribute('aria-label', `Feedback QR Code pointing to ${targetUrl}`);
   const ctx = canvas.getContext('2d');
   ctx.imageSmoothingEnabled = false;
 
@@ -986,13 +897,16 @@ function initFeedbackQR() {
   qrContainer.innerHTML = '';
   qrContainer.appendChild(canvas);
 
-  // Requirement 6: Decode the QR with jsQR and log console warning if decoded differs from getFeedbackUrl()
-  verifyQRWithJsQR(canvas, feedbackUrl);
+  // Decode the QR with jsQR and log console warning if decoded differs from targetUrl
+  verifyQRWithJsQR(canvas, targetUrl);
 
   // Download handler
   if (downloadBtn) {
+    downloadBtn.disabled = false;
+    downloadBtn.removeAttribute('aria-disabled');
+    downloadBtn.classList.remove('btn-disabled');
     downloadBtn.onclick = () => {
-      downloadPrintableQR(feedbackUrl, qrModel);
+      downloadPrintableQR(targetUrl, qrModel);
     };
   }
 }
@@ -1114,8 +1028,12 @@ function animateCounters() {
       const eased = 1 - Math.pow(1 - progress, 3);
       const value = Math.floor(eased * target);
       el.textContent = isLarge ? value.toLocaleString('en-IN') : value;
-      if (progress < 1) requestAnimationFrame(step);
-      else el.textContent = isLarge ? target.toLocaleString('en-IN') : target;
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = isLarge ? target.toLocaleString('en-IN') : target;
+        el.classList.add('counter-pop');
+      }
     }
 
     requestAnimationFrame(step);
@@ -1235,6 +1153,45 @@ function initSmoothScroll() {
         window.scrollTo({ top, behavior: 'smooth' });
       }
     });
+  });
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   HERO 3D INTERACTIVE TILT
+───────────────────────────────────────────────────────────────── */
+function initHeroInteractiveTilt() {
+  const hero = $('#hero');
+  const stack = $('.print-stack');
+  if (!hero || !stack || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  let reqId = null;
+  let targetX = 0;
+  let targetY = 0;
+  let currentX = 0;
+  let currentY = 0;
+
+  function renderTilt() {
+    currentX += (targetX - currentX) * 0.12;
+    currentY += (targetY - currentY) * 0.12;
+    stack.style.transform = `perspective(900px) rotateY(${currentX * 10}deg) rotateX(${-currentY * 10}deg)`;
+    if (Math.abs(targetX - currentX) > 0.001 || Math.abs(targetY - currentY) > 0.001) {
+      reqId = requestAnimationFrame(renderTilt);
+    } else {
+      reqId = null;
+    }
+  }
+
+  hero.addEventListener('mousemove', (e) => {
+    const rect = hero.getBoundingClientRect();
+    targetX = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
+    targetY = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
+    if (!reqId) reqId = requestAnimationFrame(renderTilt);
+  }, { passive: true });
+
+  hero.addEventListener('mouseleave', () => {
+    targetX = 0;
+    targetY = 0;
+    if (!reqId) reqId = requestAnimationFrame(renderTilt);
   });
 }
 
@@ -1428,21 +1385,86 @@ function setYear() {
 }
 
 /* ─────────────────────────────────────────────────────────────────
+   BACK TO TOP BUTTON
+───────────────────────────────────────────────────────────────── */
+function initBackToTop() {
+  const btn = $('#btn-back-to-top');
+  if (!btn) return;
+
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('is-visible', window.scrollY > 400);
+  }, { passive: true });
+
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   INTERACTIVE CURSOR SPOTLIGHT & CARD GLOW
+───────────────────────────────────────────────────────────────── */
+function initInteractiveSpotlight() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || ('ontouchstart' in window)) return;
+
+  const spotlight = document.createElement('div');
+  spotlight.className = 'interactive-spotlight';
+  spotlight.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(spotlight);
+
+  let mouseX = -300, mouseY = -300;
+  let posX = -300, posY = -300;
+  let active = false;
+
+  window.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+    if (!active) {
+      active = true;
+      spotlight.style.opacity = '1';
+    }
+  }, { passive: true });
+
+  window.addEventListener('mouseleave', () => {
+    active = false;
+    spotlight.style.opacity = '0';
+  });
+
+  function renderSpotlight() {
+    posX += (mouseX - posX) * 0.14;
+    posY += (mouseY - posY) * 0.14;
+    spotlight.style.transform = `translate3d(${posX - 175}px, ${posY - 175}px, 0)`;
+    requestAnimationFrame(renderSpotlight);
+  }
+  requestAnimationFrame(renderSpotlight);
+
+  // Dynamic Card Mouse Glow tracking
+  document.addEventListener('mousemove', (e) => {
+    const target = e.target.closest('.service-card, .why-stat, .why-feature, .feedback-qr-panel');
+    if (!target) return;
+    const rect = target.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    target.style.setProperty('--mouse-x', `${x}px`);
+    target.style.setProperty('--mouse-y', `${y}px`);
+  }, { passive: true });
+}
+
+/* ─────────────────────────────────────────────────────────────────
    INIT
 ───────────────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
-  // Restore language preference
-  let savedLang = 'en';
-  try { savedLang = localStorage.getItem('raphel_lang') || 'en'; } catch (_) {}
-
-  // Render dynamic content
-  setLanguage(savedLang);
+  // Enforce English language
+  try { localStorage.removeItem('raphel_lang'); } catch (_) {}
+  setLanguage('en');
 
   // UI inits
   initProgressBar();
   initHeaderScroll();
   initMobileNav();
   initSmoothScroll();
+  initHeroInteractiveTilt();
+  initInteractiveSpotlight();
+  initBackToTop();
   initLightbox();
   initSlider();
   initQuoteForm();
@@ -1455,11 +1477,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Update open badge every minute
   setInterval(updateOpenBadge, 60000);
-
-  // Language toggle button
-  $('#lang-toggle')?.addEventListener('click', () => {
-    setLanguage(currentLang === 'en' ? 'ta' : 'en');
-  });
 
   // Slider resize handler
   window.addEventListener('resize', () => {
